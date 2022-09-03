@@ -1,0 +1,56 @@
+{
+  "_from": "hexo-minecraft-skin-viewer",
+  "_id": "hexo-minecraft-skin-viewer@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-0bxBBBgJuNiRllMthcqLEvib+UlLAvdLqOcFAI8kkuFltLzUR9EDBOLwP7g91Z/o6Eio4UFhxtgnJUAjdm6Dcg==",
+  "_location": "/hexo-minecraft-skin-viewer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-minecraft-skin-viewer",
+    "name": "hexo-minecraft-skin-viewer",
+    "escapedName": "hexo-minecraft-skin-viewer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-minecraft-skin-viewer/-/hexo-minecraft-skin-viewer-1.0.2.tgz",
+  "_shasum": "68ba4503c95813b37400550cc31830992462628b",
+  "_spec": "hexo-minecraft-skin-viewer",
+  "_where": "C:\\Users\\Jack\\Blog-midijs",
+  "author": {
+    "name": "d-sketon"
+  },
+  "bugs": {
+    "url": "https://github.com/D-Sketon/hexo-minecraft-skin-viewer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "underscore": "^1.13.4"
+  },
+  "deprecated": false,
+  "description": "A hexo plugin to display minecraft skin by skinview3d.",
+  "homepage": "https://github.com/D-Sketon/hexo-minecraft-skin-viewer#readme",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "minecraft",
+    "skin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-minecraft-skin-viewer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Sketon/hexo-minecraft-skin-viewer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}

@@ -1,0 +1,23 @@
+<div style="margin:0 auto;width: <%= width %>px">
+    <canvas id="<%= id %>"></canvas>
+</div>
+<script type='text/javascript' src="https://unpkg.com/skinview3d@3.0.0-alpha.1/bundles/skinview3d.bundle.js"></script>
+<script>
+    setTimeout(() => {
+        var skinViewer<%= id %> = new skinview3d.SkinViewer({
+            canvas: document.getElementById("<%= id %>"),
+            width: <%= width %>,
+            height: <%= height %>,
+            <% if (type == 'name') { %>
+            skin: "https://mineskin.eu/skin/<%= content %>",
+            <% } %>
+            <% if (type == 'url') { %>
+            skin: "<%= content %>",
+            <% } %>
+        });
+        skinViewer<%= id %>.autoRotate = <%= autoRotate %>;
+        <% if (animation == 'true') { %>
+        skinViewer<%= id %>.animation = new skinview3d.WalkingAnimation();
+        <% } %>
+    }, 500);
+</script>
