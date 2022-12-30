@@ -1,4 +1,6 @@
 # hexo-minecraft-skin-viewer
+![](https://img.shields.io/npm/v/hexo-minecraft-skin-viewer)   ![](https://img.shields.io/npm/dt/hexo-minecraft-skin-viewer)
+
 A hexo plugin to display minecraft skin by skinview3d.  
 使用skinview3d展示minecraft皮肤3D模型
 ## Install 
