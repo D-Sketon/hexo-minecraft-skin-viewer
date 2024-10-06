@@ -61,4 +61,4 @@ Other arguments will be attached to the inserted `script` tag. For example, you 
 
 ## Example
 
-[Demo](https://d-sketon.top/20220902/hexo-mcskin-demo/)
+[Demo](https://d-sketon.github.io/20220902/hexo-mcskin-demo/)

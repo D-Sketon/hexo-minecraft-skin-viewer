@@ -61,4 +61,4 @@ $ npm install hexo-minecraft-skin-viewer --save
 
 ## 示例
 
-[Demo](https://d-sketon.top/20220902/hexo-mcskin-demo/)
+[Demo](https://d-sketon.github.io/20220902/hexo-mcskin-demo/)
