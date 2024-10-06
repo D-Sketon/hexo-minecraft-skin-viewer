@@ -1,6 +1,5 @@
-'use strict';
-const mcskin = require('./lib/mcskin.js')
+"use strict";
+const processArgs = require("./lib/processArgs.js");
+const template = require("./lib/template.js");
 
-hexo.extend.tag.register("mcskin", (args) => {
-    return mcskin(args);
-});
+hexo.extend.tag.register("mcskin", (args) => template(processArgs(args)));

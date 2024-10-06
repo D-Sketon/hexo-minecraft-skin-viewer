@@ -4,26 +4,26 @@
   <img alt="NPM Version" src="https://img.shields.io/npm/v/hexo-minecraft-skin-viewer">
   <img alt="NPM Downloads" src="https://img.shields.io/npm/dt/hexo-minecraft-skin-viewer">
   <p align="center">
-  使用skinview3d展示minecraft皮肤3D模型
+    A hexo plugin to display minecraft skin by skinview3d.
   </p>
 
-简体中文 | [English](https://github.com/D-Sketon/hexo-minecraft-skin-viewer/blob/main/README.en.md)
+[简体中文](https://github.com/D-Sketon/hexo-minecraft-skin-viewer/blob/main/README.md) | English
 
 </div>
 
-## 安装
+## Install
 
 ```bash
 $ npm install hexo-minecraft-skin-viewer --save
 ```
 
-## 使用
+## Usage
 
 ```
 {% mcskin type='name'|'url' username|skinUrl [rotate=true] [animation=false] [width=300] [height=400] [...other args] %}
 ```
 
-例如：
+e.g.
 
 ```
 {% mcskin name ATouuuu true true 100 200 %}
@@ -32,33 +32,33 @@ $ npm install hexo-minecraft-skin-viewer --save
 
 ### type
 
-可选值：`name` / `url`
-代表第二个参数是 Minecraft 用户名还是皮肤地址，必填
+Optional value: `name` / `url`
+Represents whether the second parameter is a Minecraft username or a skin url, required
 
 ### username|skinUrl
 
-具体的 Minecraft 用户名或皮肤地址，必填
+The specific Minecraft username or skin url, required
 
 ### rotate
 
-是否开启自动旋转，选填，默认为 `true`
+Whether to turn on automatic rotation, optional, default is `true`
 
 ### animation
 
-是否开启模型动画，选填，默认为 `false`
+Whether to turn on model animation, optional, default is `false`
 
 ### width
 
-模型宽度，选填，默认为 `300`
+Model width, optional, default is `300`
 
 ### height
 
-模型高度，选填，默认为 `400`
+Model height, optional, default is `400`
 
-### 其他参数
+### other args
 
-其他参数将会附加在插入的 `script` 标签上。例如，你可以插入 `data-pjax` 等属性
+Other arguments will be attached to the inserted `script` tag. For example, you can insert attributes such as `data-pjax`
 
-## 示例
+## Example
 
 [Demo](https://d-sketon.top/20220902/hexo-mcskin-demo/)
