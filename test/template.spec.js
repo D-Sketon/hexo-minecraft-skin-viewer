@@ -19,9 +19,9 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://unpkg.com/skinview3d@3.1.0/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
 <script >
-  let skinViewerid = new skinview3d.SkinViewer({
+  var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
     width: 300,
     height: 400,
@@ -48,9 +48,9 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://unpkg.com/skinview3d@3.1.0/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
 <script >
-  let skinViewerid = new skinview3d.SkinViewer({
+  var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
     width: 300,
     height: 400,
@@ -77,9 +77,9 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://unpkg.com/skinview3d@3.1.0/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
 <script >
-  let skinViewerid = new skinview3d.SkinViewer({
+  var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
     width: 300,
     height: 400,
@@ -106,9 +106,9 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://unpkg.com/skinview3d@3.1.0/bundles/skinview3d.bundle.js" arg1 arg2></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" arg1 arg2></script>
 <script arg1 arg2>
-  let skinViewerid = new skinview3d.SkinViewer({
+  var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
     width: 300,
     height: 400,
