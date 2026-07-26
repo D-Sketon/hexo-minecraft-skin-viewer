@@ -19,7 +19,7 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/bundles/skinview3d.bundle.js" ></script>
 <script >
   var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
@@ -48,7 +48,7 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/bundles/skinview3d.bundle.js" ></script>
 <script >
   var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
@@ -77,7 +77,7 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" ></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/bundles/skinview3d.bundle.js" ></script>
 <script >
   var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),
@@ -106,7 +106,7 @@ describe("template", () => {
 <div style="margin:0 auto; width: 300px">
   <canvas id="id"></canvas>
 </div>
-<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.1/bundles/skinview3d.bundle.js" arg1 arg2></script>
+<script type='text/javascript' src="https://cdn.jsdelivr.net/npm/skinview3d@3.4.2/bundles/skinview3d.bundle.js" arg1 arg2></script>
 <script arg1 arg2>
   var skinViewerid = new skinview3d.SkinViewer({
     canvas: document.getElementById("id"),

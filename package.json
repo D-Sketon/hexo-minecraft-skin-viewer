@@ -6,6 +6,10 @@
     "url": "https://github.com/D-Sketon/hexo-minecraft-skin-viewer/issues"
   },
   "description": "A hexo plugin to display minecraft skin by skinview3d.",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "homepage": "https://github.com/D-Sketon/hexo-minecraft-skin-viewer#readme",
   "keywords": [
     "hexo",
@@ -23,8 +27,12 @@
   "scripts": {
     "test": "vitest"
   },
-  "version": "1.2.1",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
+  "version": "1.2.2",
   "devDependencies": {
-    "vitest": "^4.0.6"
+    "vitest": "^4.1.10"
   }
 }
